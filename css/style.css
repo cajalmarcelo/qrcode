@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 15px;
+}
+
+.card{
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+.card__img img{
+    width: 93%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.card__info{
+    padding: 0 30px;
+    text-align: center;
+}
+
+.card__info h3{
+    margin-top: 20px;
+    color: hsl(218, 44%, 22%);
+    font-weight: bolder;
+}
+
+.card__info p{
+    margin-top: 30px;
+    color: hsl(220, 15%, 55%);
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
